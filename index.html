@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifter Calculator Concept</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <h1>Standard Lifter</h1>
+        <input type="number" placeholder="Lifter Angle" step="0.5" id="lifterAngle">
+        <input type="number" placeholder="Ejector Stroke" step="0.125" id="ejectorStroke">
+        <button onclick="Calculate()">Calculate</button>
+        <span id="results"></span>
+    </div>
+    <div class="calculator">
+        <h1>Decel Lifter</h1>
+        <input type="number" placeholder="Lifter Angle" step="0.5" id="lifterAngle">
+        <input type="number" placeholder="Ejector Stroke" step="0.125" id="ejectorStroke">
+        <button onclick="Calculate()">Calculate</button>
+        <span id="decel-results"></span>
+    </div>
+    <div class="calculator">
+        <h1>Accel Lifter</h1>
+        <input type="number" placeholder="Lifter Angle" step="0.5" id="lifterAngle">
+        <input type="number" placeholder="Ejector Stroke" step="0.125" id="ejectorStroke">
+        <button onclick="Calculate()">Calculate</button>
+        <span id="accel-results"></span>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
